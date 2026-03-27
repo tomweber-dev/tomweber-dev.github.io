@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Tom Weber</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- *********************BARRE-DE-NAVIGATION********************* -->
+    <nav>
+      <h1>Portfolio</h1>
+      <ul>
+        <li><a href="index.html">Qui suis-je ?</a></li>
+        <li><a href="modèles.html">Mes Modèles</a></li>
+        <li><a href="services.html">Mes Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- *********************CONTENU-PRINCIPALE********************* -->
+    <main class="hero-section">
+      <section class="header-left">
+        <h2>Qui suis-je ?</h2>
+        <p class="jump-line">
+          Je m'appelle <strong>Tom Weber</strong> et je suis autodidacte dans le
+          développement web.<strong>Voici une entrevue de</strong>
+          <button>Mes Modèles</button>.
+        </p>
+        <p>
+          Développeur passionné et obstiné dans la réussite de chacun de vos
+          projets. Je suis à votre disposition pour donner réalité à votre site
+          web.<strong>Voici</strong> <button>Mes Services</button>.
+        </p>
+      </section>
+      <div class="header-right">
+        <div class="slider-container">
+          <div class="slider-track">
+            <img src="./img/project.jpg" alt="Projet 1" />
+            <img src="./img/helium.png" alt="Projet 2" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- *********************AVIS-CLIENTS********************* -->
+    <footer>
+      <section class="reviews">
+        <h2>Avis clients</h2>
+        <div class="reviews-placeholder">
+          <p>
+            “ Vous êtes les bienvenus à laisser votre avis sur la prestation.
+            Merci à vous ! ”
+          </p>
+          <a href="#avis" class="btn-review">Laisser un avis</a>
+        </div>
+      </section>
+      <!-- *********************FORMULAIRE-DE-CONTACT********************* -->
+      <section id="contact" class="contact-form">
+        <h2>Contactez-moi</h2>
+        <form>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Votre adresse mail"
+            required
+          />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Écrivez votre message ici"
+            rows="5"
+          ></textarea>
+          <a href="#contact" class="btn-contact">Envoyer votre message</a>
+        </form>
+      </section>
+      <!-- *********************CONDITIONS-GENERALES********************* -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 Tom Weber - Tous droits réservés.</p>
+      </div>
+    </footer>
+  </body>
+</html>
