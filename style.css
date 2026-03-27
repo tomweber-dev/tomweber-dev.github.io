@@ -86,7 +86,7 @@ li a:focus-visible {
 }
 
 .header-left {
-  flex: 1;
+  width: 40%;
   background: var(--opaque-white);
   padding: 30px;
   border-radius: 15px;
@@ -121,7 +121,7 @@ li a:focus-visible {
 }
 
 .header-right {
-  flex: 1.7;
+  width: 70%;
 }
 
 .slider-container {
