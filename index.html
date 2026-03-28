@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Tom Weber</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bases.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <!-- *********************BARRE-DE-NAVIGATION********************* -->
@@ -42,7 +43,7 @@
       </div>
     </main>
     <!-- *********************AVIS-CLIENTS********************* -->
-    <footer>
+    <!-- <footer>
       <section class="reviews">
         <h2>Avis clients</h2>
         <div class="reviews-placeholder">
@@ -50,13 +51,16 @@
             “ Vous êtes les bienvenus à laisser votre avis sur la prestation.
             Merci à vous ! ”
           </p>
-          <a href="#avis" class="btn-review">Laisser un avis</a>
+          <button class="btn-review">Laisser un avis</button>
         </div>
-      </section>
+      </section> -->
       <!-- *********************FORMULAIRE-DE-CONTACT********************* -->
       <section id="contact" class="contact-form">
         <h2>Contactez-moi</h2>
-        <form>
+        <form
+          action="https://formspree.io/f/xreoeryg"
+          method="POST"
+          >
           <input
             type="email"
             id="email"
@@ -70,7 +74,7 @@
             placeholder="Écrivez votre message ici"
             rows="5"
           ></textarea>
-          <a href="#contact" class="btn-contact">Envoyer votre message</a>
+          <button class="btn-contact">Envoyer votre message</button>
         </form>
       </section>
       <!-- *********************CONDITIONS-GENERALES********************* -->
