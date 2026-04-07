@@ -347,8 +347,7 @@ li a:focus-visible {
     padding: 20px;
   }
 
-  /* --- NAVIGATION --- */
-  nav {
+  --- NAVIGATION --- nav {
     display: block;
     text-align: center;
     padding: 15px;

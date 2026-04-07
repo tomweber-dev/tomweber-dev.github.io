@@ -448,29 +448,6 @@ body {
   border-bottom: 2px solid var(--electric-blue);
 }
 
-@media screen and (max-width: 1100px) {
-  nav {
-    display: block;
-    text-align: center;
-    padding: 15px;
-  }
-
-  ul {
-    display: block;
-    margin-top: 10px;
-  }
-
-  li {
-    display: inline-block;
-    margin: 5px;
-  }
-
-  li a {
-    display: inline-block;
-    padding: 8px 12px;
-  }
-}
-
 @media screen and (max-width: 920px) {
   .models-section {
     display: inline-block;
