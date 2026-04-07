@@ -1,18 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Roboto:wght@400;500&display=swap");
 
 :root {
+  /* Page de base */
   --light-grey: rgb(212, 212, 212);
-  --opaque-white: #dfdfdf;
+  --opaque-white: #f0f0f0;
   --dark-gray: rgb(56, 56, 56);
   --electric-blue: rgb(0, 4, 255);
+
+  /* Thème Minimaliste */
+  --min-bg: #f4f4f4;
+  --min-btn: rgba(249, 196, 202, 0.575);
+  --min-text: #000000;
+
+  /* Thème Créatif */
+  --crea-bg: linear-gradient(135deg, #2c3e50 0%, #fd746c 100%);
+  --crea-btn: rgba(255, 255, 255, 0.25);
+  --crea-text: #ffffff;
+
+  /* Thème Premium */
+  --prem-text: #1a1a1a;
+  --prem-btn: #c89b3c;
+  --prem-bg: #c0c0c0;
 }
+
 * {
   margin: 0;
   padding: 0;
   list-style-type: none;
   box-sizing: border-box;
 }
+
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   font-family: "Inter", system-ui, Arial, sans-serif;
   color: var(--dark-gray);
   line-height: 1.4;

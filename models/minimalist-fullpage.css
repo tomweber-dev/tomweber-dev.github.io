@@ -1,0 +1,128 @@
+/* <!-- *********************Minimaliste-full-page******************** --> */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.btn-back {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.model-minimalist-fullpage {
+  max-width: 400px;
+  min-width: 330px;
+  height: auto;
+  margin: auto;
+  border-radius: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 40px 20px;
+  justify-content: center;
+  background-color: var(--min-bg);
+  color: var(--min-text);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.model-minimalist-fullpage img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  margin-bottom: 15px;
+}
+
+.model-minimalist-fullpage h3 {
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.model-minimalist-fullpage p {
+  font-size: 17px;
+  opacity: 0.8;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.links-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  padding: 27px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  gap: 5px;
+}
+
+.links-container h4 {
+  padding-bottom: 18px;
+  font-size: 18px;
+}
+
+.link-item-project {
+  display: flex;
+  padding: 10px 10px;
+  justify-content: center;
+  background-color: var(--min-btn);
+  color: var(--min-text);
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+  width: 100%;
+  border: 1px solid rgba(255, 0, 191, 0.1);
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.separation-line {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.363);
+  margin: 10px 0 20px 0;
+  width: 100%;
+}
+
+.link-item-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--min-btn);
+  color: var(--min-text);
+  text-decoration: none;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 10px;
+  border: 1px solid rgba(255, 0, 191, 0.1);
+  font-size: 15px;
+  margin: 0px auto 15px auto;
+}
+
+.link-item-image img {
+  width: 21px;
+  height: 21px;
+  margin: 0px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.link-item-project:hover,
+.link-item-image:hover {
+  transform: translateY(-3px);
+  border: 1px solid rgba(255, 0, 191, 0.3);
+  box-shadow: 0 8px 15px rgba(255, 0, 191, 0.1);
+}

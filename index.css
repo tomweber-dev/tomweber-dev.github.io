@@ -48,7 +48,7 @@ li a:focus-visible {
   display: flex;
   align-items: center;
   gap: 50px;
-  padding: 50px;
+  margin: 50px;
 }
 
 .header-left {
@@ -183,11 +183,13 @@ li a:focus-visible {
 /* <!-- *********************FORMULAIRE-DE-CONTACT********************* --> */
 .contact-form {
   margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
   padding: 50px 50px;
   background: var(--opaque-white);
   text-align: center;
   border-radius: 15px;
-  box-shadow: 8px 7px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 7px 4px 5px rgba(0, 0, 0, 0.05);
 }
 
 .contact-form h2 {
@@ -338,7 +340,7 @@ li a:focus-visible {
   }
 }
 /* <!-- *********************RESPONSIVE-DESIGN-TABLET********************* --> */
-@media screen and (min-width: 593px) and (max-width: 937px) {
+@media screen and (min-width: 593px) and (max-width: 1040px) {
   .reviews,
   .contact-form {
     margin: 20px 30px;
