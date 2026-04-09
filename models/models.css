@@ -4,7 +4,7 @@ body {
 
 .models-title {
   display: inline-block;
-  border-bottom: 2px solid var(--electric-blue);
+  border-bottom: 2px solid var(--electric-blue-btn);
   margin-bottom: 20px;
   margin-top: 40px;
   padding-bottom: 10px;
@@ -70,7 +70,7 @@ body {
   justify-self: center;
   text-decoration: none;
   align-self: center;
-  background: var(--electric-blue);
+  background: var(--electric-blue-btn);
   color: white;
   padding: 15px 40px;
   border: none;
@@ -424,7 +424,7 @@ body {
 /* <!-- *********************Choix-du-modèle******************** --> */
 .models-choice h2 {
   display: inline-block;
-  border-bottom: 2px solid var(--electric-blue);
+  border-bottom: 2px solid var(--electric-blue-btn);
   margin-bottom: 50px;
   margin-top: 20px;
   padding-bottom: 10px;
@@ -439,13 +439,13 @@ body {
   border: none;
   border-bottom: 2px solid transparent;
   transition: 0.3s;
-  color: var(--electric-blue);
+  color: var(--electric-blue-btn);
   font-weight: bold;
   cursor: pointer;
   padding: 0;
 }
 .models-choice a:hover {
-  border-bottom: 2px solid var(--electric-blue);
+  border-bottom: 2px solid var(--electric-blue-btn);
 }
 
 @media screen and (max-width: 920px) {
