@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="../commun.css" />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <!-- *********************BARRE-DE-NAVIGATION********************* -->
+    <nav>
+      <h1>Portfolio</h1>
+      <ul>
+        <li><a href="../index.html">Qui suis-je ?</a></li>
+        <li><a href="../models/models.html">Mes Modèles</a></li>
+        <li><a href="../services/services.html">Mes Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- *********************BARRE-DE-CONTACT********************* -->
+    <main class="contact-container">
+      <section class="contact-bar">
+        <div class="contact-bar-text">
+          <h2>Parlons de votre projet</h2>
+          <p>
+            Un développeur à votre écoute pour une solution qui vous ressemble.
+          </p>
+        </div>
+        <img src="../img/coding-man.png" alt="Tom Weber en train de coder" />
+      </section>
+      <!-- *********************FORMULAIRE-DE-CONTACT********************* -->
+      <section id="contact" class="contact-form">
+        <h2>Contactez-moi</h2>
+        <form action="https://formspree.io/f/xreoeryg" method="POST">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Votre adresse mail"
+            required
+          />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Écrivez votre message ici"
+            rows="5"
+          ></textarea>
+          <button class="btn-contact">Envoyer votre message</button>
+        </form>
+      </section>
+    </main>
+    <!-- *********************CONDITIONS-GENERALES********************* -->
+    <div class="footer-bottom">
+      <p>&copy; 2026 Tom Weber - Tous droits réservés.</p>
+    </div>
+  </body>
+</html>

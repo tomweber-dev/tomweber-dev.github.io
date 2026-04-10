@@ -158,8 +158,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  -webkit-backface-visibility: hidden;
-  transform: translateZ(0);
 
   /* Cacher la modale */
   opacity: 0;
@@ -324,7 +322,7 @@
 @media screen and (max-width: 760px) {
   .offer-grid,
   .delivery-process-grid {
-    display: inline-block;
+    display: block;
   }
 
   .offer-card {

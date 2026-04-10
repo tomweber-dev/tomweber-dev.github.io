@@ -1,0 +1,152 @@
+/* *********************STRUCTURE-CONTACT********************* */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* *********************BARRE-DE-CONTACT (Héros)********************* */
+.contact-bar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1100px;
+  margin: 40px auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.contact-bar-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  padding: 40px;
+  gap: 15px;
+  text-align: center;
+}
+
+.contact-bar-text h2 {
+  font-size: 2rem;
+  color: var(--dark-gray-text);
+}
+
+.contact-bar-text p {
+  font-style: italic;
+  color: #666;
+}
+
+.contact-bar img {
+  width: 55%;
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* *********************FORMULAIRE-DE-CONTACT********************* */
+.contact-form {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 80px auto;
+  padding: 50px;
+  background: var(--opaque-white-bg);
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 7px 4px 5px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form h2 {
+  color: var(--dark-gray-text);
+  border-bottom: 2px solid var(--electric-blue-btn);
+  padding-bottom: 10px;
+  margin-bottom: 35px;
+  display: inline-block;
+}
+
+.contact-form form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: #f9f9f9;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--electric-blue-btn);
+  background: white;
+  box-shadow: 0 0 8px rgba(0, 4, 255, 0.1);
+  transform: scale(1.01);
+}
+
+.btn-contact {
+  text-decoration: none;
+  align-self: center;
+  background: var(--electric-blue-btn);
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-contact:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 4, 255, 0.3);
+  filter: brightness(1.1);
+}
+
+.btn-contact:active {
+  transform: translateY(0);
+  filter: brightness(0.9);
+}
+
+/* *****************RESPONSIVE-DESIGN************************ */
+@media screen and (max-width: 900px) {
+  .contact-bar {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .contact-bar-text,
+  .contact-bar img {
+    width: 100%;
+  }
+
+  .contact-bar img {
+    height: 300px;
+  }
+
+  .contact-form {
+    width: 95%;
+    padding: 30px 15px;
+  }
+
+  .contact-form form {
+    padding: 20px;
+  }
+}
